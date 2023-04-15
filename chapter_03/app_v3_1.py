@@ -5,6 +5,8 @@ import dash_bootstrap_components as dbc
 from dash.dependencies import Output, Input
 import plotly.graph_objects as go
 import pandas as pd
+import plotly.express as px
+
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 

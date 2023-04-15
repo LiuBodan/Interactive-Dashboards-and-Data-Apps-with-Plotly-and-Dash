@@ -48,7 +48,7 @@ app.layout = html.Div([
 
 ])
 
-
+# applied callback on display_country_report
 @app.callback(Output('report', 'children'),
               Input('country', 'value'))
 def display_country_report(country):
