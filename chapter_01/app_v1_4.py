@@ -9,6 +9,7 @@ app.layout = html.Div([
             style={'color': 'blue',
                    'fontSize': '40px'}),
     html.H2('The World Bank'),
+    # different tabs
     dbc.Tabs([
        dbc.Tab([
            html.Ul([
